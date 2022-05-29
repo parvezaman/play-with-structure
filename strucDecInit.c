@@ -24,6 +24,14 @@ int main()
     // update all variables
     today = (struct Date){30, 05, 2022};
 
-    printf("%d - %d - %d", today.day, today.month, today.year);
+    // assigning into another variable to be comfortable while using variables
+    int todayDay = today.day;
+    int todayMonth = today.month;
+    int todayYear = today.year;
+
+    // update value using short variables
+    todayDay = 29;
+
+    printf("%d - %d - %d", todayDay, todayMonth, todayYear);
     return 0;
 }
