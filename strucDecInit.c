@@ -19,7 +19,10 @@ int main()
     struct Date today = {28, 5, 2022};
 
     // updating a structure value
-    today.day = 29;
+    // today.day = 29;
+
+    // update all variables
+    today = (struct Date){30, 05, 2022};
 
     printf("%d - %d - %d", today.day, today.month, today.year);
     return 0;
