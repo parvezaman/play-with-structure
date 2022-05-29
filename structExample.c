@@ -27,11 +27,11 @@ int main()
 
     for (int i = 0; i < howManyDays; i++)
     {
-        /* // check leap year
+        // check leap year
         if (((nextDate.year % 4 == 0) && !(nextDate.year % 100 == 0)) || nextDate.year % 400 == 0)
         {
             daysInMonth[1] = 29;
-        } */
+        }
 
         if (nextDate.day != daysInMonth[nextDate.month - 1])
         {
